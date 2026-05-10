@@ -1,12 +1,12 @@
 #include <iostream>
 #include <string>
 
-// Main function: asks user name and prints greeting
-int main()
+int
+main()
 {
-    std::string name;                 // variable to store user name
-    std::cout << "Enter name: ";      // prompt
-    std::cin >> name;                 // read name
-    std::cout << "Hello world from @" << name << std::endl; // output
+    std::string name;
+    std::cout << "Enter name: ";
+    std::cin >> name;
+    std::cout << "Hello world from @" << name << std::endl;
     return 0;
 }
