@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 
-int main()
+int
+main()
 {
     std::string name;                 // variable to store user name.
     std::cout << "Enter name: ";      // prompt.
